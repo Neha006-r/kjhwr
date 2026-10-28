@@ -2,8 +2,8 @@
 
 A web app that helps a UK energy utility's day-ahead power buying team see the wind generation forecasts available when they must decide, and measure how accurate those forecasts are.
 
-**Live app:** <FRONTEND_URL>
-**API:** <BACKEND_URL>/docs
+**Live app:** https://kjhwr-81zs.vercel.app    
+**API docs:** https://kjhwr-tau-weld.vercel.app/docs
 
 ## Problem and approach
 
