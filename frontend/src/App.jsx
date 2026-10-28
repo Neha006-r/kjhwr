@@ -67,6 +67,10 @@ export default function App() {
       {!invalidRange && metrics && (
         <>
           <MetricCards summary={metrics.summary} />
+          <p className="muted">
+            Error = forecast minus actual (positive = the forecast was too high). Accuracy is measured on the
+            hours present in both datasets: the forecast data is hourly and the actual data is half-hourly.
+          </p>
           <ForecastChart data={series} />
           <div className="grid-2">
             <ErrorChart data={series} />
